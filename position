@@ -1,0 +1,58 @@
+/*
+estudos do posicionamento dos elementos
+*/
+
+body{
+    font-family: sans-serif;
+}
+
+#static {
+    background-color: aqua;
+    padding: 50px;
+    position: static;
+}
+#relative1 {
+    background-color: brown;
+    color: #fff;
+    padding: 50px;
+    position: relative;
+    top: -30px;
+    left: 60px;
+}
+#relative2 {
+    background-color: #00ff00;
+    padding: 50px;
+    width: 500px;
+    position: relative;
+    top: -30px;
+    left: 30px;
+}
+#relative3 {
+    background-color: #ff000f;
+    padding: 20px;
+    width: 600px;
+    height: 400px;
+    position: relative;
+    top: -30px;
+    left: 30px;
+}
+#absolute {
+    background-color: #0000ff;
+    width: 300px;
+    height: 200px;
+    color:#fff #; 
+    padding: 20px;
+    position: absolute;
+    top: 120px;
+    right: 0px;
+}
+
+#fixed {
+    background-color: darkmagenta;
+    color: #fff;
+    width: 200px;
+    padding: 30px;
+    right: 0px;
+    bottom: 0px;
+    position: fixed;
+}
